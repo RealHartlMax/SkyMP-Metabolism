@@ -1,0 +1,23 @@
+{
+  "title": "Wellbeing",
+  "satiety": "Satiety", "hydration": "Hydration", "rest": "Rest",
+  "satietyHint": "0 = starving, 100 = well fed",
+  "hydrationHint": "0 = dehydrated, 100 = well hydrated",
+  "restHint": "0 = exhausted, 100 = well rested",
+  "healthy": "Good", "warning": "Low", "critical": "Critical", "severe": "Very critical",
+  "statusDescription": "Shows your satiety, hydration and rest.",
+  "statusUnavailable": "Your character status is not available yet.",
+  "statusError": "Could not retrieve your character status.",
+  "satiety.healthy": "You are well fed again.",
+  "satiety.warning": "You are getting hungry.",
+  "satiety.critical": "You are very hungry.",
+  "satiety.severe": "You are starving. Find something to eat.",
+  "hydration.healthy": "You are well hydrated again.",
+  "hydration.warning": "You are getting thirsty.",
+  "hydration.critical": "You are very thirsty.",
+  "hydration.severe": "You are dehydrated. Find something to drink.",
+  "rest.healthy": "You are well rested again.",
+  "rest.warning": "You are getting tired.",
+  "rest.critical": "You are very tired.",
+  "rest.severe": "You are exhausted. Find a safe place to rest."
+}

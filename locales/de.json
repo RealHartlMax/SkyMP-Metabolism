@@ -1,0 +1,23 @@
+{
+  "title": "Versorgung",
+  "satiety": "Sättigung", "hydration": "Flüssigkeit", "rest": "Erholung",
+  "satietyHint": "0 = ausgehungert, 100 = satt",
+  "hydrationHint": "0 = dehydriert, 100 = gut versorgt",
+  "restHint": "0 = erschöpft, 100 = ausgeruht",
+  "healthy": "Gut", "warning": "Niedrig", "critical": "Kritisch", "severe": "Sehr kritisch",
+  "statusDescription": "Zeigt deine Sättigung, Flüssigkeit und Erholung an.",
+  "statusUnavailable": "Dein Charakterstatus ist noch nicht verfügbar.",
+  "statusError": "Der Charakterstatus konnte nicht ermittelt werden.",
+  "satiety.healthy": "Du bist wieder gut gesättigt.",
+  "satiety.warning": "Du bekommst Hunger.",
+  "satiety.critical": "Du bist sehr hungrig.",
+  "satiety.severe": "Du bist ausgehungert. Suche etwas zu essen.",
+  "hydration.healthy": "Du bist wieder gut mit Flüssigkeit versorgt.",
+  "hydration.warning": "Du bekommst Durst.",
+  "hydration.critical": "Du hast starken Durst.",
+  "hydration.severe": "Du bist dehydriert. Suche etwas zu trinken.",
+  "rest.healthy": "Du bist wieder ausgeruht.",
+  "rest.warning": "Du wirst müde.",
+  "rest.critical": "Du bist sehr müde.",
+  "rest.severe": "Du bist erschöpft. Suche eine sichere Rastmöglichkeit."
+}

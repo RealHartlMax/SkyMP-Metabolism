@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "schemaVersion": 1,
+  "locale": "de",
+  "clock": {
+    "mode": "real-online",
+    "tickIntervalSeconds": 30,
+    "maxCatchUpSeconds": 120,
+    "offlineDecay": false,
+    "lifecyclePollSeconds": 1
+  },
+  "initialState": {
+    "satiety": 100,
+    "hydration": 100,
+    "rest": 100
+  },
+  "decayPerHour": {
+    "satiety": 5,
+    "hydration": 8,
+    "rest": 4
+  },
+  "thresholds": {
+    "warning": 50,
+    "critical": 25,
+    "severe": 10,
+    "hysteresis": 3,
+    "notificationCooldownSeconds": 60
+  },
+  "debuffs": {
+    "enabled": false
+  },
+  "damage": {
+    "enabled": false
+  },
+  "death": {
+    "enabled": false
+  },
+  "ui": {
+    "enabled": true,
+    "widgetId": "skymp-metabolism:status",
+    "updateIntervalSeconds": 5
+  },
+  "chat": {
+    "enabled": true,
+    "statusCommand": "status"
+  },
+  "persistence": {
+    "mode": "native",
+    "autosaveSeconds": 120
+  },
+  "limits": {
+    "maxActiveCharacters": 512,
+    "maxConsumables": 256,
+    "maxSubscriptions": 128,
+    "adjustmentsPerMinute": 120
+  }
+}

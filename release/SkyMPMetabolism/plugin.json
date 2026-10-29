@@ -1,0 +1,6 @@
+{
+  "name": "skymp-metabolism", "version": "1.0.0", "kind": "gamemode",
+  "displayName": "SkyMP Metabolism",
+  "description": "Serverautoritäre Sättigung, Flüssigkeit und Erholung; native Charakterpersistenz und optionale Chat-/UI-Core-Adapter.",
+  "main": "index.cjs", "optional": false
+}

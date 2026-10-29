@@ -1,0 +1,13 @@
+node_modules/
+dist/
+artifacts/
+release/SkyMPMetabolism/index.cjs
+release/SkyMPMetabolism/types/
+release/SkyMPMetabolism/docs/
+release/SkyMPMetabolism/locales/
+release/SkyMPMetabolism/LICENSE
+release/SkyMPMetabolism/README.md
+release/SkyMPMetabolism/config.json
+*.zip
+*.tgz
+config/config.json

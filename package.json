@@ -1,0 +1,12 @@
+{
+  "name": "skymp-metabolism", "version": "1.0.0", "private": true,
+  "description": "Serverautoritäre Charakterversorgung für SkyMP", "license": "AGPL-3.0-only",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node tools/build.cjs", "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "verify:fork": "node tools/verify-fork.cjs", "verify:native": "node tools/verify-fork.cjs --native",
+    "verify:ui-load-order": "node tools/verify-ui-load-order.cjs"
+  },
+  "devDependencies": { "@types/node": "22.19.17", "esbuild": "0.28.2", "typescript": "5.9.3" }
+}
